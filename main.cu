@@ -1,7 +1,7 @@
 #include <iostream>
 #include <cuda.h>
 
-using namesapce std;
+using namespace std;
 
 __global__ void AddIntsCUDA(int *a, int *b)
 {
